@@ -1,6 +1,6 @@
 # Design Patterns
 
-Examples of common design patterns implemented in JavaScript.
+Examples of common software design patterns.
 
 Run:
 
