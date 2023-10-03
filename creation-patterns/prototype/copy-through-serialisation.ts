@@ -32,7 +32,7 @@ class Person {
     }
 }
 
-class Serialiser {
+export class Serialiser {
     private types: any[];
     constructor(types: any[]) {
         this.types = types;
@@ -105,8 +105,6 @@ const alice = new Person(
 // Works with serialiser
 let ser = new Serialiser([Person, Address]);
 const bob = ser.clone(alice);
-
-console.log(bob);
 
 bob.name = 'Bob';
 bob.address.streetAddress = '321 Other St';
