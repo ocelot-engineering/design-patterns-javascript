@@ -30,7 +30,17 @@ ts-node <path-to-file.ts>
 -   To implement a prototype, partially construct an object and store it somewhere.
 -   Prototype must be deep copied, then customise the resulting instance.
 -   A factory is a convenient API for using prototypes.
+-   Can create a centralised prototype registery that stores a catalog of frequently used prototypes.
+
+#### Singleton
+
+-   A component which is instantiated only once.
 
 ## Miscellaneous notes
 
 -   Fluent interfaces return this so calls can be chained.
+
+## References
+
+-   [Refactoring Guru: Design Patterns](https://refactoring.guru/design-patterns/typescript)
+-   [Design Patterns in Javascript](https://www.udemy.com/course/design-patterns-javascript/)
