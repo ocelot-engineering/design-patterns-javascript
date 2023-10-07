@@ -35,6 +35,15 @@ ts-node <path-to-file.ts>
 #### Singleton
 
 -   A component which is instantiated only once.
+-   A monostate implementation is one where there can be many instances of a class but they all share the same data. (Not a recommended implmentation of the singleton)
+-   Directly depending on the Singleton is a bad idea; introduce a dependency instead.
+
+### Structural
+
+#### Adapter
+
+-   A construct which adapts an existing interface X to confirm to the required interface Y.
+-   Adapt the interface that you are given with the interface that you need.
 
 ## Miscellaneous notes
 
