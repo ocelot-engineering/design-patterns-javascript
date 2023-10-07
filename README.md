@@ -45,6 +45,13 @@ ts-node <path-to-file.ts>
 -   A construct which adapts an existing interface X to confirm to the required interface Y.
 -   Adapt the interface that you are given with the interface that you need.
 
+#### Bridge
+
+-   Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+-   Bridge pevents a cartesian product complexity explosion.
+-   Decouple abstraction from implementation.
+    -   Both abstraction and implementation exist as hierarchies.
+
 ## Miscellaneous notes
 
 -   Fluent interfaces return this so calls can be chained.
