@@ -56,6 +56,12 @@ ts-node <path-to-file.ts>
 
 -   A mechanism for treating individual (scalar) objects and compositions of objects in a uniform manner.
 
+#### Decorator
+
+-   Facilitates the addition of behaviors to individual objects without inheriting from them.
+-   A decorator class usually takes a reference to the object it is decorating.
+-   Adds utility fields and methods to augment the objects features.
+
 ## Miscellaneous notes
 
 -   Fluent interfaces return this so calls can be chained.
