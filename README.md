@@ -52,6 +52,10 @@ ts-node <path-to-file.ts>
 -   Decouple abstraction from implementation.
     -   Both abstraction and implementation exist as hierarchies.
 
+#### Composite
+
+-   A mechanism for treating individual (scalar) objects and compositions of objects in a uniform manner.
+
 ## Miscellaneous notes
 
 -   Fluent interfaces return this so calls can be chained.
