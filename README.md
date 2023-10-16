@@ -62,6 +62,12 @@ ts-node <path-to-file.ts>
 -   A decorator class usually takes a reference to the object it is decorating.
 -   Adds utility fields and methods to augment the objects features.
 
+#### Façade
+
+-   Provides a simple, easy to understand/user inferface over a large and sophisticated body of code.
+-   May wish to (optionally) expose the internals through the façade.
+-   May allow users to "escalate" to user more complex APIs if they need to.
+
 ## Miscellaneous notes
 
 -   Fluent interfaces return this so calls can be chained.
