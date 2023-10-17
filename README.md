@@ -68,6 +68,14 @@ ts-node <path-to-file.ts>
 -   May wish to (optionally) expose the internals through the façade.
 -   May allow users to "escalate" to user more complex APIs if they need to.
 
+#### Flyweight
+
+-   A space optimisation technique that lets us use less memory by storing externally the data associated with similar objects.
+-   Store common data externally.
+-   Specify an index or reference into the external data store.
+-   Define the idea of a homogeneous collections and store data related to those ranges.
+-   Avoids redundancy when storing data.
+
 ## Miscellaneous notes
 
 -   Fluent interfaces return this so calls can be chained.
