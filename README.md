@@ -84,6 +84,16 @@ ts-node <path-to-file.ts>
 -   Add relevant functionality to the redefined member functions.
 -   Different proxies (communication, logging, caching, etc.) have completely different behaviours.
 
+### Behavioural
+
+## Chain of responsibility
+
+-   Lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
+-   Chain of responsibility can be implemented as a chain of references or a centralised construct.
+-   Enlist objects in the chain, possibily controlling their order/priority.
+-   In a linked-list implementation, one member can impede futher processing.
+-   Support removal of objects from the chain (lifetime control).
+
 ## Miscellaneous notes
 
 -   Fluent interfaces return this so calls can be chained.
