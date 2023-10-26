@@ -86,13 +86,22 @@ ts-node <path-to-file.ts>
 
 ### Behavioural
 
-## Chain of responsibility
+#### Chain of responsibility
 
 -   Lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
 -   Chain of responsibility can be implemented as a chain of references or a centralised construct.
 -   Enlist objects in the chain, possibily controlling their order/priority.
 -   In a linked-list implementation, one member can impede futher processing.
 -   Support removal of objects from the chain (lifetime control).
+
+#### Command
+
+-   An object which represents an instruction to perform a particular action.
+-   Contains all the information necessary for the action to be taken.
+-   Encapsulate all details of an operation in a separate object.
+-   Define instruction for applying the command (either in the command itself, or elsewhere).
+-   Optionally define instructions for undoing the command.
+-   Can create composite commands (a.k.a. macros).
 
 ## Miscellaneous notes
 
