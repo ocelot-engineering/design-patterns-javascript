@@ -103,6 +103,13 @@ ts-node <path-to-file.ts>
 -   Optionally define instructions for undoing the command.
 -   Can create composite commands (a.k.a. macros).
 
+#### Interpreter
+
+-   A component that processes structured text data. Does so by turning it nto separate lexical tokens(lexing) and then interpreting sequences of said tokens (parsing).
+-   An interpreter acts in two stages, lexing and parsing.
+    -   Lexing turns text into a set of tokens
+    -   Parsing turns tokens into meaningful constructs that can be traversed.
+
 ## Miscellaneous notes
 
 -   Fluent interfaces return this so calls can be chained.
